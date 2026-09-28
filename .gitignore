@@ -4,3 +4,13 @@ build/
 .[e]nv
 __pycache__/
 *.pyc
+
+# Temporary export zips in root
+/*.zip
+public-sample/
+
+# IDE & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+*.tmp

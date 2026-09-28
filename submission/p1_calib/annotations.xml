@@ -9,7 +9,7 @@
       <overlap>0</overlap>
       <bugtracker></bugtracker>
       <created>2026-09-28 09:41:35.629221+00:00</created>
-      <updated>2026-09-28 09:56:32.690544+00:00</updated>
+      <updated>2026-09-28 10:24:33.755974+00:00</updated>
       <subset>default</subset>
       <start_frame>0</start_frame>
       <stop_frame>0</stop_frame>
@@ -234,7 +234,7 @@ privacy_or_policy</values>
         </label>
       </labels>
     </job>
-    <dumped>2026-09-28 09:57:03.355510+00:00</dumped>
+    <dumped>2026-09-28 10:30:29.495865+00:00</dumped>
   </meta>
   <image id="0" name="adasind_019560.jpg" width="1080" height="1920">
     <box label="Pedestrian" source="manual" occluded="0" xtl="463.01" ytl="729.21" xbr="542.88" ybr="841.82" z_order="0">
@@ -263,5 +263,35 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
+    <polygon label="ThreeWheeler" source="manual" occluded="0" points="422.46,730.83;396.95,728.70;375.70,733.80;368.04,741.45;363.37,739.33;362.94,733.38;368.89,730.40;365.49,724.88;361.24,722.75;359.12,728.70;359.12,737.63;347.64,741.88;339.99,755.06;335.31,761.86;333.61,780.56;333.61,790.34;326.38,802.24;322.13,815.00;322.13,823.92;326.81,832.43;330.21,825.20;330.21,825.20;333.19,822.65;334.46,831.15;338.71,836.25;349.76,838.80;353.59,828.18;357.42,821.80;358.69,840.93;379.95,844.75;424.16,841.78;424.16,789.49;428.83,782.69;429.26,777.16;424.16,769.94;424.16,732.95" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </polygon>
+    <polygon label="ThreeWheeler" source="manual" occluded="0" points="296.63,744.01;330.21,742.31;334.04,754.21;332.76,779.29;328.51,796.72;320.43,813.30;320.86,822.22;308.53,823.50;297.48,823.50;293.65,825.63;290.25,821.37;288.55,809.90;288.55,800.97;294.08,797.57;298.33,790.77;297.48,769.94;297.48,755.91;293.65,750.81;296.20,745.28" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </polygon>
+    <polygon label="Bike" source="manual" occluded="0" points="455.19,779.29;447.54,783.54;460.29,792.04;482.40,795.87;481.97,803.94;467.09,803.94;454.34,807.35;468.79,817.55;468.79,817.55;465.39,825.63;452.64,811.60;444.56,811.60;439.89,825.63;439.04,837.95;434.79,851.98;426.71,856.23;422.03,854.96;420.33,864.73;429.68,869.41;434.79,876.21;437.34,891.94;449.24,897.47;452.21,890.24;453.06,903.42;478.57,902.57;487.07,907.25;486.65,907.25;493.02,917.45;504.08,914.90;515.56,899.17;512.58,866.44;508.33,851.13;508.33,837.53;508.75,826.90;514.28,819.67;518.11,812.02;504.50,806.07;504.93,795.87;500.68,791.62;485.80,792.04;481.55,793.74" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </polygon>
+    <box label="ThreeWheeler" source="manual" occluded="0" xtl="287.70" ytl="742.30" xbr="332.76" ybr="821.40" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </box>
+    <box label="ThreeWheeler" source="manual" occluded="0" xtl="328.08" ytl="723.20" xbr="429.26" ybr="842.63" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </box>
+    <polygon label="Car" source="manual" occluded="0" points="45.39,779.29;64.10,775.04;81.95,772.91;91.30,773.76;90.88,784.82;91.73,791.62;95.13,802.67;95.55,816.70;96.40,834.98;96.83,845.61;76.00,848.16;54.74,852.83;45.39,853.68;45.39,842.63;44.97,813.30;44.12,781.84" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </polygon>
   </image>
 </annotations>

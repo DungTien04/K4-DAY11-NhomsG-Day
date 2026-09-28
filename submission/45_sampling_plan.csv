@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,Thấp,Lấy mẫu điều kiện ánh sáng chuẩn phía trước
+front,hard,15,Cao,Lấy mẫu ánh sáng ngược và vật thể bị chói ở đầu xe
+rear,normal,35,Thấp,Lấy mẫu khoảng cách chuẩn quan sát phía sau
+rear,hard,15,Cao,Lấy mẫu góc khuất điểm mù và bám bẩn ống kính sau
+left,normal,35,Thấp,Lấy mẫu quan sát sườn xe bên trái thông thường
+left,hard,15,Cao,Lấy mẫu ánh sáng gắt và biến dạng mạnh ở rìa trái fisheye
+right,normal,35,Thấp,Lấy mẫu quan sát sườn xe bên phải thông thường
+right,hard,15,Cao,Lấy mẫu góc chéo bị che khuất bởi thân xe bên phải

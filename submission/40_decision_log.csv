@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+DEC-01,2026-09-28,Quy tắc gắn nhãn người đi bộ bị nhòe ở viền fisheye,Gắn nhãn Pedestrian với occluded=true,Đạt độ phủ đối tượng ở vùng viền,resolved
+DEC-02,2026-09-28,Xử lý vùng ego_body bị trùng với lens_border,Ưu tiên vẽ ego_body đè lên lens_border,Giữ đúng phân loại vật thể thực tế,resolved
+DEC-03,2026-09-28,Phân định xe ba bánh ở khoảng cách xa,Bỏ qua các xe quá nhỏ <40px,Đúng theo rule H=40px,resolved
+DEC-04,2026-09-28,Nghi vấn về việc thiếu nhãn reference cho xe bus ở xa,Escalate lên QA lead để cập nhật guideline,Cần làm rõ định nghĩa minibus góc nghiêng,escalated

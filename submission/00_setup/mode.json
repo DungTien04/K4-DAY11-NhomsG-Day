@@ -1,6 +1,25 @@
 {
-  "current_slice": "C0",
+  "current_slice": "B2-mid",
   "support_prefill": false,
   "support_slice": "",
-  "prefill_box_ids": []
+  "prefill_box_ids": [
+    "adasind_060000.jpg:1",
+    "adasind_060000.jpg:2",
+    "adasind_060000.jpg:3",
+    "adasind_060000.jpg:4",
+    "adasind_060000.jpg:5"
+  ],
+  "members": [
+    "an",
+    "binh",
+    "chi"
+  ],
+  "assignments": {
+    "an": "B2-mid",
+    "binh": "B1-center",
+    "chi": "B1-dense"
+  },
+  "self": "an",
+  "slice": "B2-mid",
+  "degrade": []
 }

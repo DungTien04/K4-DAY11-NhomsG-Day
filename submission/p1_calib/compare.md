@@ -8,12 +8,10 @@ Box L trong ignore_region được báo IGNORE_SCOPE, không tính SPURIOUS.
 - L3+R3 edge WRONG_CLASS
 - R1 center MISSING
 - R4 mid MISSING
-- R5 center MISSING
-- R6 mid MISSING
 
 ## Theo zone
 | zone | n_ref | matched | missing | spurious |
 |---|---|---|---|---|
-| center | 3 | 1 | 2 | 1 |
-| mid | 2 | 0 | 2 | 0 |
+| center | 3 | 2 | 1 | 1 |
+| mid | 2 | 1 | 1 | 0 |
 | edge | 1 | 0 | 1 | 1 |
